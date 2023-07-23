@@ -1,0 +1,163 @@
+body {
+  font-family: "Montserrat";
+}
+
+#title {
+  background-color: #ff4c68;
+  color: #fff;
+  padding-bottom: 5rem;
+}
+
+h1 {
+  font-family: 'Montserrat-Black';
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+h3 {
+  font-family: "Montserrat-bold";
+}
+
+h2 {
+  font-family: "Montserrat-bold";
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+p {
+  color: #8f8f8f;
+}
+
+.container-fluid {
+  padding: 3% 15%;
+}
+
+/* Navbar */
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.navbar-link {
+  font-size: 1.2rem;
+  font-family: 'Montserrat-light';
+}
+
+/* Download button */
+.Download-button {
+  margin: 5% 2% 5% 0;
+}
+
+.title-image {
+  width: 60%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 30%;}
+@media (max-width:1028px) {
+  .title-image{
+    position:staic;
+    transform:rotate(0);
+  }
+  .nav-link{
+    text-align: right;
+  }
+  #title{
+    text-align: center;
+    padding-bottom: 55rem;
+
+  }
+
+}
+
+/* <!-- Features --> */
+#features {
+  padding: 7% 15%;
+  background-color: #fff;
+  position: relative;
+  z-index: 1; /* if we did not give the z index it also work because whiech html element is laster it will be top */
+}
+
+.bio {
+  text-align: center;
+}
+
+
+.icon {
+  padding-bottom: 1%;
+  color: #ef8172;
+}
+
+.icon:hover {
+  color: #ff4c68;
+}
+
+/* testimonials */
+#testimonials {
+  text-align: center;
+  background-color: #ef8172;
+  color: #fff;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+.testimonials-img {
+  margin: 3%;
+  width: 10%;
+  border-radius: 100%;
+}
+
+#press {
+  background-color: #ef8172;
+  text-align: center;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+/* pricing */
+#pricing {
+  padding: 100px;
+  text-align: center;
+}
+
+.pricing1 {
+  padding: 2% 3%;
+}
+/* <!-- Call to Action --> */
+#cta{
+  padding: 5%;
+  text-align: center;
+  background-color: #ff4c68;
+}
+.h31{
+  font-family: "Montserrat-black";
+  line-height: 2;
+  padding-bottom: 2%;
+  color:#fff;
+}
+.ctn-button{
+  margin-right: 2%;
+}
+/* footer */
+#footer{
+  background-color: #fff;
+  text-align: center;
+  padding: 4%;
+}
+.social-icon{
+  margin: 1%;
+  line-height: 1;
+}
